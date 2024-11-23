@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruru</title>
+</head>
+<link rel="icon" type="image/png" href="peks.png">
+<body>
+    <header>
+        <a href="#" class="logo">Ruru</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+       <!-- <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a> -->
+        </nav>
+
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="pic.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Reymark</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p> I'm Reymark V. Manjares, 19-year-old college student currently in my second year of a BSCS program. I'm passionate about becoming a front-end developer or web designer. In my free time, I love playing online games. I've been blessed with the best girl in the world, my Maria Nicole, who's always there for me through ups and down. I love her more than words can express. </p>
+           
+           <br>
+           <br>        
+           <br>
+           <br>          
+            
+            <div class="social-icons">
+                
+                <h3 style="color: #F6FB7A;">Follow my socials</h3>
+                <a href="https://www.facebook.com/profile.php?id=100008365386513"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_ruruki/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/weeemoan"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/reymarksy"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ph.pinterest.com/reymarkmanjares/_created/"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://open.spotify.com/user/315k6lqffsegujra6aabmq2rf5ju?si=5da0238a8c2147f9"><i class="fa-brands fa-spotify"></i></i></a>
+                <a href="https://www.youtube.com/@reymarkmanjares583"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a id="confettiButton" class="btn">SHEESH!</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script>
+        document.getElementById('confettiButton').addEventListener('click', function () {
+            confetti({
+                particleCount: 500,
+                spread: 250,
+                startVelocity: 30,
+                origin: { y: 0.7 }
+            });
+
+            // Add more bursts for an even bigger effect
+            setTimeout(() => {
+                confetti({
+                    particleCount: 300,
+                    spread: 150,
+                    startVelocity: 40,
+                    origin: { y: 0.6 }
+                });
+            }, 200);
+
+            setTimeout(() => {
+                confetti({
+                    particleCount: 300,
+                    spread: 140,
+                    startVelocity: 50,
+                    origin: { y: 0.6 }
+                });
+            }, 400);
+        });
+    </script>
+        
+    </section>
+</body>
+</html>
+
+<i ></i>
